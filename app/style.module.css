@@ -1,0 +1,28 @@
+.page {
+  height: 100%;
+  background: url("/bg.jpg") no-repeat center center fixed;
+  .logo {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+  }
+  .btnGroup {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: #495057;
+  font-weight: 500;
+  border-top: 1px solid #e9ecef;
+}
